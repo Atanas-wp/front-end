@@ -1,0 +1,66 @@
+h1 {
+    border-style: dotted;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+    background-color: #a9a9a9;
+    width: 100px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ccc;
+}
+
+h2 {
+    text-align: right;
+}
+
+.intro {
+    text-align: right;
+    margin-left: 25%;                
+}
+
+img {
+    width: 250px;
+    height: 130px;
+    float: right;
+    padding-left: 30px;
+}
+
+section {
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 25px 15px 5px 55px;
+}
+
+#section2 {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#section1 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+h3 {
+    margin: 0;
+}
+
+span {
+    color: #8B0000;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
