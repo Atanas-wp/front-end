@@ -1,0 +1,80 @@
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #E79696;
+}
+
+nav li a {
+    text-decoration: none;
+    background: white;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+    left: 30px;
+    display: inline-block;
+    width: 81px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #E79696;
+}
+
+li:hover {
+    font-size: 1.5rem;
+}
+
+.para1, .para2 {
+    width: 200px;
+    background: black;
+    color: white;
+    padding-left: 25px;
+}
+
+.para1 {
+    text-align: right;       
+}
+
+section {
+    width: 250px;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    padding:5px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.para3 {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.para4 {
+    padding-left: 10px;
+    padding-right: 50px;
+    background: white;
+    margin-left: 50px;
+}
+
+
+
+
