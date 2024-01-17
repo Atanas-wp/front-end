@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.sky {
+    width: 100%;
+    height: 80vh;
+    background-color: #2C97FD;     
+    animation-name: sky;
+    animation-duration: 10s;  
+    animation-iteration-count: infinite;       
+}
+
+.ground {
+    width: 100%;
+    height: 20vh;
+    background-color: #228B22;
+}
+
+.sun {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: sun;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes sun {
+    0% {left: 0%; bottom: 20vh; background-color: #FF9300;}                   
+    5% {left: 5%; bottom: 25vh; background-color: #FFA300;}
+    15% {left: 15%; bottom: 40vh; background-color: #FFE000;}
+    25% {left: 25%; bottom: 55vh; background-color: #FFFF00;}
+    35% {left: 35%; bottom: 65vh; background-color: #FFFF00;}
+    45% {left: 45%; bottom: 75vh; background-color: #FFFF00;}
+    50% {left: 50%; bottom: 80vh; scale: 4; background-color: #FFFF00;}
+    60% {left: 60%; bottom: 75vh; background-color: #FFFF00;}
+    70% {left: 70%; bottom: 60vh; background-color: #FFC200;}
+    80% {left: 80%; bottom: 45vh;background-color: #FFC200;}
+    90% {left: 90%; bottom: 30vh;background-color: #FF6D00;}
+    100% {left: 100%; bottom: 20vh;background-color: #FF6D00;}
+}
+
+@keyframes sky {
+    0% {background-color: #2C97FD;}                        
+    10% {background-color: #4BA7F7;}
+    20% {background-color: #6FB9F1;}
+    30% {background-color: #95CCEA;}
+    50% {background-color: #9FD1E8;}
+    70% {background-color: #82C2EE;}
+    80% {background-color: #58ADF5;}
+    100% {background-color: #3099FC;}
+}
+
+
+
+
+
+
+
