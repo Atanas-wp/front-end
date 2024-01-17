@@ -1,0 +1,101 @@
+body {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                 'Lucida Sans', 'Arial', 'sans-serif';
+}
+
+.menu {
+
+    list-style-type: none;
+}
+
+.menu li {
+
+    display: inline-block;
+    width: 100px;
+    background-color: black;
+}
+
+.menu a {
+
+    color: white;
+    text-decoration: none;
+}
+
+table th, table td{
+
+    border: 1px solid black;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+th {
+
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+
+.gallery a {
+
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    display: block;
+    width: 32.3%;
+    float: left;
+}
+
+img {
+
+    border: 2px solid blue;
+    width: 100%;
+}
+
+body {
+
+    background: grey;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+}
+
+.heading th {
+
+    text-align: center;
+    background: grey;
+    color: black;
+    border: none;
+}
+
+ul {
+
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+video {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+}
+
