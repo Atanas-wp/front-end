@@ -1,0 +1,151 @@
+nav ul li {
+    float: right;
+    margin: 20px;
+    display: block;
+    font-size: 2rem;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #33A2F2, #089469);
+}
+
+section {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 100;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 30%
+}
+
+.div1 {
+    width: 10rem;
+    height: 10rem;
+    transition-property: width height;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: #4AABDE;
+    position: relative;
+    top: 400px;
+    animation-direction: alternate;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    transform: rotate(45deg);
+}
+
+.div2 {
+    width: 10rem;
+    height: 10rem;
+    transition-property: width height;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: #4AABDE;
+    position: relative;
+    left: 400px;
+    animation-direction: alternate;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    transform: rotate(45deg);
+}
+
+.div3 {
+    width: 3rem;
+    height: 3rem;
+    transition-property: width height;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: #4AABDE;
+    position: relative;
+    left: 800px;
+    animation-direction: alternate;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    transform: rotate(45deg);
+}
+
+.div4 {
+    width: 6rem;
+    height: 6rem;
+    transition-property: width height;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: #4AABDE;
+    position: relative;
+    left: 1000px;
+    animation-direction: alternate;
+    animation-name: myAnimation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    transform: rotate(45deg);
+}
+
+.div5 {
+    width: 10rem;
+    height: 10rem;
+    transition-property: width height;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-out;
+    background-color: #18989A;
+    position: relative;
+    left: 1200px;
+    animation-direction: alternate;
+    animation-name: myAnimation2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    transform: rotate(45deg);
+}
+
+.div1:hover {
+    transform: translate(8rem, 8rem) scale(2) rotate(50deg);
+}
+
+@keyframes myAnimation {
+    0%   {background-color: #4AABDE; top:600px;}
+    25%  {background-color: #4AABDE; top:400x;}
+    50%  {background-color: #4AABDE; top:300px;}
+    75%  {background-color: #4AABDE; top:200px;}
+    100% {background-color: #4AABDE; top:100px;}
+  }
+
+  @keyframes myAnimation2 {
+    0%   {background-color: #18989A; top:600px;}
+    25%  {background-color: #18989A; top:400x;}
+    50%  {background-color: #18989A; top:300px;}
+    75%  {background-color: #18989A; top:200px;}
+    100% {background-color: #18989A; top:100px;}
+  }
+
+
+
+
+  
+
+
+
+
+
